@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <div class="logo">
+        <img src="./assets/Frame 6.png" alt="logo da alura">
+    </div>
+
+    <div class="wrapper">
+
+        <section class="caixas">
+            <div class="textoprincipal">
+                <textarea name="" id="textooriginal" placeholder="Digite seu texto"></textarea>
+
+                <div class="informacao">
+                    <h1><i class="bi bi-exclamation-circle-fill"></i> Apenas letras minúsculas e sem acento.</h1>
+                </div>
+
+                <div class="botoes">
+                    <button class="botaocripto" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="botaodescripto" onclick="btnDesencriptar()">Descriptografar </button>
+                </div>
+
+            </div>
+
+            <div class="resultado">
+                <textarea name="" id="textoresultado" placeholder=""></textarea>
+                <img id="imagemlupa" class="imagemlupa" src="./assets/High quality products 1 1.png"
+                    alt="uma pessoal olhando na lupa">
+                <h1 class="msgnaoencontrada" id="msgnaoencontrada">Nenhuma mensagem encontrada</h1>
+                <p class="msgdigiteotexto" id="msgdigiteotexto">Digite um texto que você deseja criptografar ou
+                    descriptografar.</p>
+
+                <button id="botaocopiartexto" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div id="rodape">
+            <p id="barra__embaixo"> Hugo Oliveira - One - 2024</p>
+            <div id="rodape__logos">
+                <a href="https://github.com/hugopassosdev/" target="_blank"><img src="./assets/github-logo.png"
+                        alt="logo do github" title="Visite meu perfil do Github">
+                </a>
+                <a href="https://www.linkedin.com/in/hugopassosornelas/" target="_blank"><img
+                        src="./assets/linkedin-logo.png" alt="logo do linkedin" title="Visite meu perfil do Linkedin">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
